@@ -4,6 +4,7 @@ This Simple Script Pulls From a Live List of Proxies and Initializes an Anonymou
 Imports:
 -Requests (pip install requests)
 -BeautifulSoup4 (pip install beautifulsoup4)
+-LXML (pip install lxml)
 -Selenium (pip install selenium)
 
 Requirements:
