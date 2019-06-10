@@ -5,26 +5,17 @@ from selenium import webdriver
 #While Loop Control Variable to Make Sure We Get a Working Proxy
 successful_access = False
 
-#Pulls the HTML of Our Proxy Website
-website_url = requests.get("https://free-proxy-list.net/").text
-#Makes a Soup Variable That Turns Raw HTML Into "Parse-able" Data
-soup = BeautifulSoup(website_url,"lxml")
-#Puts The Table Object Into The "table" Variable
-table = soup.find("tbody")
-#Puts all Rows In The Table Variable Into the "rows" Variable
-rows = table.find_all("tr")
+#Proxy api url
+url = "https://www.proxy-list.download/api/v1/get?type=https&anon=elite"
 
-#Initializes an Empty List for All Proxies
-proxy_list = []
+#Gets the api text
+res = requests.get(url)
+html_page = res.content
+soup = BeautifulSoup(html_page, 'html.parser')
+text = soup.find(text=True)
 
-#For Each Row in Our List of Rows, We Extract The IP Number and Port, Appending Them To Our List Of IPs
-for row in rows:
-    cols = row.find_all('td')
-    cols = [ele.text for ele in cols]
-    ip = cols[0]
-    port = cols[1]
-    fullip = ip + ":" + port
-    proxy_list.append(fullip)
+#Splits the api data into a list of proxies
+proxy_list = text.split('\r\n')
 
 #This While Loop Will Continue Attempting to Open a DuckDuckGo Search Page With The Proxies From Our List Until It Succeeds
 while successful_access == False:
@@ -37,7 +28,9 @@ while successful_access == False:
 
             #This Block Attempts to Open a New Chrome Tab Using The Proxy and If Successful, Quits The Script
             chrome = webdriver.Chrome(options=chrome_options)
-            chrome.get('https://duckduckgo.com/')
+            chrome.get('https://www.ecosia.org/?c=en')
+            #Makes sure the page loaded correctly and the ecosia logo is there
+            chrome.find_element_by_xpath("/html/body/div[1]/div/div/section[1]/div[1]/div[1]")
             successful_access = True
             break
         except:
