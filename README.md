@@ -1,6 +1,15 @@
 <img src="images/proxychrome.png" align="right" />
 
 # ProxyChrome          
+<a href="https://github.com/SeleniumHQ/selenium">
+      <img src="https://img.shields.io/badge/built%20with-Selenium-yellow.svg" />
+    </a>
+    <a href="https://www.python.org/">
+    	<img src="https://img.shields.io/badge/built%20with-Python3-red.svg" />
+    </a>
+    <a href="https://pypi.org/project/beautifulsoup4/">
+    	<img src="https://img.shields.io/badge/built%20with%20-BS4-green.svg" />
+    </a>
 
 ## General info
 This simple program pulls a fresh list of 'elite' level anonymous proxies from [Proxy-List](https://www.proxy-list.download) via their API. Then it checks the list for a non-crowded proxy and opens an :earth_americas:[Ecosia](https://www.ecosia.org/) search page in Chrome.
