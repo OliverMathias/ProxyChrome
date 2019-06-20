@@ -2,14 +2,14 @@
 
 # ProxyChrome          
 
+## General info
+This simple program pulls a fresh list of 'elite' level anonymous proxies from [Proxy-List](https://www.proxy-list.download) via their API. Then it checks the list for a non-crowded proxy and opens an :earth_americas:[Ecosia](https://www.ecosia.org/) search page in Chrome.
+
 ## 🚩 Table of contents
 * [General info](#general-info)
 * [Flowchart](#flowchart)
 * [Technologies](#technologies)
 * [Setup](#setup)
-
-## General info
-This simple program pulls a fresh list of 'elite' level anonymous proxies from [Proxy-List](https://www.proxy-list.download) via their API. Then it checks the list for a non-crowded proxy and opens an :earth_americas:[Ecosia](https://www.ecosia.org/) search page in Chrome.
 
 ## Flowchart
 ![Flowchart](./images//ProxyChromeFlowChart.png)
