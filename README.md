@@ -16,12 +16,12 @@ This simple program pulls a fresh list of 'elite' level anonymous proxies from [
 
 ## 🚩 Table of contents
 * [General info](#general-info)
-* [Walkthrough](#walkthrough)
+* [Sample](#sample)
 * [Flowchart](#flowchart)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## Walkthrough
+## Sample
 ![](http://g.recordit.co/6BhKNS7vRj.gif)
 
 ## Flowchart
