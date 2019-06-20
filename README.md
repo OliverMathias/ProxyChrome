@@ -1,7 +1,9 @@
 # ProxyChrome
 
+## Flowchart
 
 ## Table of contents
+* [Flowchart](#flowchart)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
