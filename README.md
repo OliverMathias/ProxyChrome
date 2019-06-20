@@ -33,4 +33,4 @@ $ pip install beautifulsoup4
 $ pip install lxml
 $ pip install selenium
 ```
-Browser anonymously WHILE planting trees! :deciduous_tree
+Browser anonymously WHILE planting trees! :deciduous_tree:
