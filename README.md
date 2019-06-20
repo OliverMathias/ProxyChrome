@@ -1,7 +1,7 @@
 # ProxyChrome
 
 ## Flowchart
-https://github.com/OliverMathias/ProxyChrome/blob/master/ProxyChromeFlowChart.png
+![Flowchart](./images//ProxyChromeFlowChart.png)
 ## Table of contents
 * [Flowchart](#flowchart)
 * [General info](#general-info)
