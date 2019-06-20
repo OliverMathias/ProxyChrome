@@ -1,3 +1,4 @@
+<img src="images/proxychrome.png" align="right" />
 # ProxyChrome
 
 ## 🚩 Table of contents
@@ -32,7 +33,7 @@ https://github.com/OliverMathias/ProxyChrome
 
 Then run this line to install the ProxyChrome dependencies:
 ```
-$ pip install -r requirements.txt
+$ pip install -r dependencies.txt
 ```
 
 Finally, cd into the folder and run ProxyChrome:
