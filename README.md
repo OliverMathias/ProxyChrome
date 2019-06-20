@@ -1,5 +1,6 @@
 <img src="images/proxychrome.png" align="right" />
-# ProxyChrome
+
+# ProxyChrome          
 
 ## 🚩 Table of contents
 * [General info](#general-info)
@@ -38,7 +39,7 @@ $ pip install -r dependencies.txt
 
 Finally, cd into the folder and run ProxyChrome:
 ```
-python ProxyChrome.py
+$ python3 ProxyChrome.py
 ```
 Browser anonymously WHILE planting trees!
 :seedling: :evergreen_tree: :deciduous_tree:
