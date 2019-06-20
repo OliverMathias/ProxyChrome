@@ -21,7 +21,7 @@ This simple program pulls a fresh list of 'elite' level anonymous proxies from [
   * [Technologies](#technologies)
   * [Prerequisites](#prerequisites)
 * [Setup](#setup)
-  * [Clone this repository](#clone-this-repository)
+  * [Clone Repository](#clone-repository)
   * [Install ProxyChrome Dependencies](#install-proxychrome-dependencies)
   * [Overwrite ChromeDriver](#overwrite-chromedriver)
   * [Run ProxyChrome](#run-proxychrome)
