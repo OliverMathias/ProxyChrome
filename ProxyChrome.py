@@ -17,6 +17,33 @@ print(r"""
                                                     V-1.1
 """)
 
+def getProxies():
+    print()
+    print("Fetching Proxy list...")
+    print()
+
+    #Proxy api url
+    url = "https://www.proxy-list.download/api/v1/get?type=https&anon=elite"
+
+    #Gets the api text
+    res = requests.get(url)
+    html_page = res.content
+    soup = BeautifulSoup(html_page, 'html.parser')
+    text = soup.find(text=True)
+
+    #Splits the api data into a list of proxies
+    proxy_list = text.split('\r\n')
+
+    for proxy in proxy_list:
+        print(proxy)
+
+    print()
+    print("Proxies Fetched: ", len(proxy_list))
+
+    #An easy way for the user to quit both windows
+    print()
+    quit = input("Enter any Key to Quit: ")
+
 #This is the main ProxyChrome function
 def main():
     #While Loop Control Variable to Make Sure We Get a Working Proxy
@@ -88,4 +115,5 @@ def main():
     quit = input("Enter any Key to Quit: ")
 
 if __name__ == "__main__":
-    main()
+    #main()
+    getProxies()
