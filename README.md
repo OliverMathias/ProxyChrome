@@ -19,33 +19,33 @@ Project is created with:
 * Selenium 3.14
 * Chrome 74.0.37
 
-## 💾 Setup
-To run this project, install the following programs:
-
+## Prerequisites
 * Python 3.x.x (https://www.python.org/)
 * Google Chrome (https://www.google.com/chrome/)
 * Chrome Driver (https://sites.google.com/a/chromium.org/chromedriver/)
 
+## 💾 Setup
 Clone this repository:
 ```
 https://github.com/OliverMathias/ProxyChrome
 ```
 
-Then run these four lines to install the ProxyChrome dependencies:
+Then run this line to install the ProxyChrome dependencies:
 ```
-$ pip install requests
-$ pip install beautifulsoup4
-$ pip install lxml
-$ pip install selenium
+$ pip install -r requirements.txt
+```
+
+Finally, cd into the folder and run ProxyChrome:
+```
+python ProxyChrome.py
 ```
 Browser anonymously WHILE planting trees!
 :seedling: :evergreen_tree: :deciduous_tree:
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
 * [Ecosia](https://www.ecosia.org/)
 * [Proxy-List](https://www.proxy-list.download)
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
