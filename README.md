@@ -1,7 +1,7 @@
 # ProxyChrome
 
 ## Flowchart
-
+https://github.com/OliverMathias/ProxyChrome/blob/master/ProxyChromeFlowChart.png
 ## Table of contents
 * [Flowchart](#flowchart)
 * [General info](#general-info)
@@ -9,7 +9,7 @@
 * [Setup](#setup)
 
 ## General info
-This simple program pulls a fresh list of 'elite' level anonymous proxies from a 'https://www.proxy-list.download' via their API. Then it checks the list for a non-crowded proxy and opens an [Ecosia](https://www.ecosia.org/) search page in Chrome.
+This simple program pulls a fresh list of 'elite' level anonymous proxies from [Proxy-List](https://www.proxy-list.download) via their API. Then it checks the list for a non-crowded proxy and opens an [Ecosia](https://www.ecosia.org/) search page in Chrome.
 
 ## Technologies
 Project is created with:
