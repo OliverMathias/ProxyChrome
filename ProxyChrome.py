@@ -87,6 +87,5 @@ def main():
     #An easy way for the user to quit both windows
     quit = input("Enter any Key to Quit: ")
 
-
 if __name__ == "__main__":
     main()
