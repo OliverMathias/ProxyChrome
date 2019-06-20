@@ -54,7 +54,7 @@ Finally, cd into the folder and run ProxyChrome:
 ```
 $ python ProxyChrome.py
 ```
-Browser anonymously WHILE planting trees!
+Browse anonymously WHILE planting trees!
 :seedling: :evergreen_tree: :deciduous_tree:
 
 
