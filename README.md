@@ -7,7 +7,7 @@
 * [Setup](#setup)
 
 ## General info
-This simple program pulls a fresh list of 'elite' level anonymous proxies from [Proxy-List](https://www.proxy-list.download) via their API. Then it checks the list for a non-crowded proxy and opens an [Ecosia](https://www.ecosia.org/) search page in Chrome.
+This simple program pulls a fresh list of 'elite' level anonymous proxies from [Proxy-List](https://www.proxy-list.download) via their API. Then it checks the list for a non-crowded proxy and opens an [Ecosia](https://www.ecosia.org/):deciduous_tree: search page in Chrome.
 
 ## Flowchart
 ![Flowchart](./images//ProxyChromeFlowChart.png)
@@ -33,4 +33,5 @@ $ pip install beautifulsoup4
 $ pip install lxml
 $ pip install selenium
 ```
-Browser anonymously WHILE planting trees! :deciduous_tree:
+Browser anonymously WHILE planting trees!
+:deciduous_tree: :deciduous_tree: :deciduous_tree:
