@@ -16,9 +16,13 @@ This simple program pulls a fresh list of 'elite' level anonymous proxies from [
 
 ## 🚩 Table of contents
 * [General info](#general-info)
+* [Walkthrough](#walkthrough)
 * [Flowchart](#flowchart)
 * [Technologies](#technologies)
 * [Setup](#setup)
+
+## Walkthrough
+![](http://g.recordit.co/6BhKNS7vRj.gif)
 
 ## Flowchart
 ![Flowchart](./images//ProxyChromeFlowChart.png)
@@ -48,7 +52,7 @@ $ pip install -r dependencies.txt
 
 Finally, cd into the folder and run ProxyChrome:
 ```
-$ python3 ProxyChrome.py
+$ python ProxyChrome.py
 ```
 Browser anonymously WHILE planting trees!
 :seedling: :evergreen_tree: :deciduous_tree:
