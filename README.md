@@ -39,6 +39,9 @@ Project is created with:
 * Google Chrome (https://www.google.com/chrome/)
 * Chrome Driver (https://sites.google.com/a/chromium.org/chromedriver/)
 
+#### **Make sure to Download Compatible Versions of Chrome Driver and Chrome**
+
+
 ## 💾 Setup
 Clone this repository:
 ```
@@ -49,6 +52,10 @@ Then run this line to install the ProxyChrome dependencies:
 ```
 $ pip install -r dependencies.txt
 ```
+
+Make sure to copy your 'chromedriver' file into the ProxyChrome folder:
+
+![](http://g.recordit.co/rcMJLz2inT.gif)
 
 Finally, cd into the folder and run ProxyChrome:
 ```
