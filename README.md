@@ -1,22 +1,23 @@
 # ProxyChrome
 
-## Flowchart
-![Flowchart](./images//ProxyChromeFlowChart.png)
 ## Table of contents
-* [Flowchart](#flowchart)
 * [General info](#general-info)
+* [Flowchart](#flowchart)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
 ## General info
 This simple program pulls a fresh list of 'elite' level anonymous proxies from [Proxy-List](https://www.proxy-list.download) via their API. Then it checks the list for a non-crowded proxy and opens an [Ecosia](https://www.ecosia.org/) search page in Chrome.
 
+## Flowchart
+![Flowchart](./images//ProxyChromeFlowChart.png)
+
 ## Technologies
 Project is created with:
 * Python 3.6
 * BeautifulSoup4
-* Selenium
-* Chromium
+* Selenium 3.14
+* Chrome 74.0.37
 
 ## Setup
 To run this project, install the following programs:
