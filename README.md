@@ -41,7 +41,7 @@ Project is created with:
 * Python 3.7.3
 * BeautifulSoup 4.0.0
 * Selenium 3.14
-
+ 
 ## Prerequisites
 * [Python 3.7.3](https://www.python.org/)
 * [Google Chrome 75.0.37](https://www.google.com/chrome/)
