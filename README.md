@@ -43,9 +43,9 @@ Project is created with:
 * Selenium 3.14
 
 ## Prerequisites
-* Python 3.7.3 (https://www.python.org/)
-* Google Chrome 75.0.37 (https://www.google.com/chrome/)
-* Chrome Driver 74.0.37 (https://sites.google.com/a/chromium.org/chromedriver/)
+* [Python 3.7.3](https://www.python.org/)
+* [Google Chrome 75.0.37](https://www.google.com/chrome/)
+* [Chrome Driver 74.0.37](https://sites.google.com/a/chromium.org/chromedriver/)
 
 #### **Make sure to Download [Compatible](http://chromedriver.chromium.org/downloads/version-selection) Versions of Chrome Driver and Chrome**
 
