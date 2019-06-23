@@ -115,5 +115,5 @@ def main():
     quit = input("Enter any Key to Quit: ")
 
 if __name__ == "__main__":
-    #main()
-    getProxies()
+    main()
+    #getProxies()

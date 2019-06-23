@@ -41,7 +41,7 @@ Project is created with:
 * Python 3.7.3
 * BeautifulSoup 4.0.0
 * Selenium 3.14
- 
+
 ## Prerequisites
 * [Python 3.7.3](https://www.python.org/)
 * [Google Chrome 75.0.37](https://www.google.com/chrome/)
@@ -58,19 +58,20 @@ https://github.com/OliverMathias/ProxyChrome
 ```
 
 #### Install ProxyChrome Dependencies
-cd into the ProxyChrome folder and run this command to install all dependencies at once...
+'cd' into the ProxyChrome folder and run this command to install all dependencies at once...
 ```
-$ pip install -r dependencies.txt
+$ pip3 install -r dependencies.txt
 ```
+
 #### Overwrite ChromeDriver
-Make sure to copy your 'chromedriver' file into the ProxyChrome folder...
+Make sure to copy your 'chromedriver' file into the ProxyChrome folder so that you are using a compatible version with your machine and Chrome release...
 
 ![](http://g.recordit.co/rcMJLz2inT.gif)
 
 #### Run ProxyChrome
 Finally, cd into the folder and run ProxyChrome...
 ```
-$ python ProxyChrome.py
+$ python3 ProxyChrome.py
 ```
 Browse anonymously WHILE planting trees!
 :seedling: :evergreen_tree: :deciduous_tree:
